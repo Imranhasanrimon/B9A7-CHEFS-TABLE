@@ -1,0 +1,150 @@
+[
+    {
+        "recipe_id": 1,
+        "recipe_name": "Grilled Chicken",
+        "recipe_image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cmVjaXBlfGVufDB8fDB8fHww",
+        "short_description": "A simple and delicious grilled chicken recipe with soy sauce and basil.",
+        "ingredients": [
+            "550 g chicken",
+            "120 ml soy sauce",
+            "200 g basil leaf",
+            "400 g mushroom"
+        ],
+        "preparing_time": 30,
+        "calories": 320
+    },
+    {
+        "recipe_id": 2,
+        "recipe_name": "Spaghetti Carbonara",
+        "recipe_image": "https://images.unsplash.com/photo-1564834744159-ff0ea41ba4b9?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cmVjaXBlfGVufDB8fDB8fHww",
+        "short_description": "A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper.",
+        "ingredients": [
+            "400 g spaghetti",
+            "100 g pancetta",
+            "2 large eggs",
+            "50 g Parmesan cheese",
+            "1 clove garlic"
+        ],
+        "preparing_time": 25,
+        "calories": 450
+    },
+    {
+        "recipe_id": 3,
+        "recipe_name": "Vegetarian Stir-Fry",
+        "recipe_image": "https://images.unsplash.com/photo-1601315379734-425a469078de?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHJlY2lwZXxlbnwwfHwwfHx8MA%3D%3D",
+        "short_description": "A quick and healthy stir-fry packed with fresh vegetables.",
+        "ingredients": [
+            "300 g broccoli",
+            "200 g bell peppers",
+            "100 g carrots",
+            "50 ml soy sauce",
+            "2 tbsp olive oil"
+        ],
+        "preparing_time": 20,
+        "calories": 220
+    },
+    {
+        "recipe_id": 4,
+        "recipe_name": "Beef Tacos",
+        "recipe_image": "https://images.unsplash.com/photo-1485921325833-c519f76c4927?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHJlY2lwZXxlbnwwfHwwfHx8MA%3D%3D",
+        "short_description": "Flavorful beef tacos served with fresh salsa and guacamole.",
+        "ingredients": [
+            "300 g ground beef",
+            "6 taco shells",
+            "100 g cheddar cheese",
+            "150 g salsa",
+            "100 g guacamole"
+        ],
+        "preparing_time": 15,
+        "calories": 500
+    },
+    {
+        "recipe_id": 5,
+        "recipe_name": "Chicken Caesar Salad",
+        "recipe_image": "https://images.unsplash.com/photo-1528712306091-ed0763094c98?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHJlY2lwZXxlbnwwfHwwfHx8MA%3D%3D",
+        "short_description": "A healthy Caesar salad topped with grilled chicken and Parmesan.",
+        "ingredients": [
+            "200 g chicken breast",
+            "100 g Romaine lettuce",
+            "50 g croutons",
+            "30 g Parmesan cheese",
+            "50 ml Caesar dressing"
+        ],
+        "preparing_time": 10,
+        "calories": 300
+    },
+    {
+        "recipe_id": 6,
+        "recipe_name": "Lemon Garlic Salmon",
+        "recipe_image": "https://images.unsplash.com/photo-1466637574441-749b8f19452f?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHJlY2lwZXxlbnwwfHwwfHx8MA%3D%3D",
+        "short_description": "A flavorful salmon fillet cooked with lemon and garlic.",
+        "ingredients": [
+            "400 g salmon fillet",
+            "2 cloves garlic",
+            "1 lemon",
+            "2 tbsp olive oil",
+            "50 g parsley"
+        ],
+        "preparing_time": 20,
+        "calories": 350
+    },
+    {
+        "recipe_id": 7,
+        "recipe_name": "Chocolate Chip Cookies",
+        "recipe_image": "https://images.unsplash.com/photo-1590234229790-b210b3dcd422?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cmVjaXBlJTIwb2YlMjBwaXp6YXxlbnwwfHwwfHx8MA%3D%3D",
+        "short_description": "Delicious homemade cookies packed with chocolate chips.",
+        "ingredients": [
+            "250 g flour",
+            "100 g sugar",
+            "150 g butter",
+            "200 g chocolate chips",
+            "1 egg"
+        ],
+        "preparing_time": 40,
+        "calories": 180
+    },
+    {
+        "recipe_id": 8,
+        "recipe_name": "Cauliflower Rice",
+        "recipe_image": "https://images.unsplash.com/photo-1727198826731-20f279d446d8?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cmVjaXBlJTIwb2YlMjBwaXp6YXxlbnwwfHwwfHx8MA%3D%3D",
+        "short_description": "A healthy low-carb alternative to rice made from cauliflower.",
+        "ingredients": [
+            "1 head cauliflower",
+            "2 tbsp olive oil",
+            "1 clove garlic",
+            "Salt to taste"
+        ],
+        "preparing_time": 15,
+        "calories": 50
+    },
+    {
+        "recipe_id": 9,
+        "recipe_name": "Classic Pancakes",
+        "recipe_image": "https://images.unsplash.com/photo-1586197132548-e2e19edf9f89?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHJlY2lwZSUyMG9mJTIwcGl6emF8ZW58MHx8MHx8fDA%3D",
+        "short_description": "Fluffy pancakes served with maple syrup and berries.",
+        "ingredients": [
+            "200 g flour",
+            "2 tbsp sugar",
+            "2 tsp baking powder",
+            "300 ml milk",
+            "1 egg"
+        ],
+        "preparing_time": 20,
+        "calories": 350
+    },
+    {
+        "recipe_id": 10,
+        "recipe_name": "Mushroom Risotto",
+        "recipe_image": "https://images.unsplash.com/photo-1614936686369-cad7c0e5f6a6?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHJlY2lwZSUyMG9mJTIwcGl6emF8ZW58MHx8MHx8fDA%3D",
+        "short_description": "Creamy risotto made with fresh mushrooms and Parmesan.",
+        "ingredients": [
+            "200 g Arborio rice",
+            "400 ml vegetable broth",
+            "150 g mushrooms",
+            "50 g Parmesan cheese",
+            "1 onion"
+        ],
+        "preparing_time": 30,
+        "calories": 420
+    }
+]
