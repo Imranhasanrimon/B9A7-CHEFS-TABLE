@@ -5,9 +5,10 @@ const Sidebar = ({ wanted, setWanted }) => {
     const [cooked, setCooked] = useState([]);
 
     const handlePreparing = (want) => {
-        // const newRecipy = [...wanted];
-        // newRecipy.pop()
-        // setWanted(newRecipy);
+
+        const cooking = wanted.filter(item => item.recipe_id !== want.recipe_id);
+        setWanted(cooking);
+
         const newCooked = [...cooked, want];
         setCooked(newCooked)
     }
@@ -77,8 +78,12 @@ const Sidebar = ({ wanted, setWanted }) => {
                             <tr>
                                 <th></th>
                                 <th></th>
-                                <th>Total Time: <br /></th>
-                                <th>Total Calories: <br /></th>
+                                <th>Total Time: <br /> {
+                                    cooked.reduce((acc, num) => acc + num.preparing_time, 0)
+                                } minutes</th>
+                                <th>Total Calories: <br /> {
+                                    cooked.reduce((acc, num) => acc + num.calories, 0)
+                                } calories</th>
                             </tr>
 
                         </tbody>
