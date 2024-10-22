@@ -10,6 +10,17 @@ const Main = () => {
             .then(data => setRecipes(data))
     }, []);
 
+    const [wanted, setWanted] = useState([]);
+
+    const handleWanted = (recipy) => {
+        const isExist = wanted.find(item => item.recipe_id === recipy.recipe_id);
+        if (!isExist) {
+            const newRecipy = [...wanted, recipy];
+            setWanted(newRecipy);
+        } else {
+            alert('This recipy has been added')
+        }
+    }
 
 
     return (
@@ -21,8 +32,8 @@ const Main = () => {
             </div>
 
             <div className="grid grid-cols-12 gap-4">
-                <Recipes recipes={recipes}></Recipes>
-                <Sidebar></Sidebar>
+                <Recipes handleWanted={handleWanted} recipes={recipes}></Recipes>
+                <Sidebar setWanted={setWanted} wanted={wanted}></Sidebar>
             </div>
 
         </div>

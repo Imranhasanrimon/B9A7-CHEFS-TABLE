@@ -1,5 +1,5 @@
 
-const recipy = ({ recipy }) => {
+const recipy = ({ recipy, handleWanted }) => {
     const { recipe_name, recipe_image, ingredients, short_description, preparing_time, calories } = recipy;
     return (
         <div className="border rounded-lg p-3">
@@ -15,7 +15,7 @@ const recipy = ({ recipy }) => {
                 <p><i className="fa-regular fa-clock mr-2"></i>{preparing_time} minutes</p>
                 <p><i className="fa-solid fa-fire-flame-curved mr-2"></i>{calories} calories</p>
             </div>
-            <button className="btn btn-accent btn-sm mt-3 rounded-full">Want to Cook</button>
+            <button onClick={() => handleWanted(recipy)} className="btn btn-accent btn-sm mt-3 rounded-full">Want to Cook</button>
         </div>
     );
 };
