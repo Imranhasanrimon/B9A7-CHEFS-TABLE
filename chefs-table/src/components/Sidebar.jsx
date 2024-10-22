@@ -15,7 +15,7 @@ const Sidebar = ({ wanted, setWanted }) => {
 
 
     return (
-        <div className="border col-span-5 rounded-lg">
+        <div className="border lg:col-span-5  rounded-lg">
             <div className="py-6">
                 <h3 className=" text-center  text-2xl font-medium">Want to cook: {wanted.length}</h3>
                 <div className="divider w-2/3 mx-auto mt-0"></div>
@@ -50,7 +50,7 @@ const Sidebar = ({ wanted, setWanted }) => {
 
 
                 {/* Currently Cooking */}
-                <h3 className=" text-center  text-2xl font-medium mt-5">Currently Cooking: {wanted.length}</h3>
+                <h3 className=" text-center  text-2xl font-medium mt-5">Currently Cooking: {cooked.length}</h3>
                 <div className="divider w-2/3 mx-auto mt-0"></div>
 
                 <div className="overflow-x-auto">

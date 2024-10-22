@@ -31,7 +31,7 @@ const Main = () => {
                 <p className="mt-6 mb-10">Lorem ipsum dolor sit amet consectetur. Proin et feugiat senectus vulputate netus pharetra rhoncus. Eget urna volutpat curabitur elementum mauris aenean neque. </p>
             </div>
 
-            <div className="grid grid-cols-12 gap-4">
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-4">
                 <Recipes handleWanted={handleWanted} recipes={recipes}></Recipes>
                 <Sidebar setWanted={setWanted} wanted={wanted}></Sidebar>
             </div>
