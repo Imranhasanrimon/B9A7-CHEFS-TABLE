@@ -1,5 +1,6 @@
 import Recipes from "./Recipes";
 import { useEffect, useState } from "react";
+import Sidebar from "./Sidebar";
 
 const Main = () => {
     const [recipes, setRecipes] = useState([]);
@@ -8,6 +9,8 @@ const Main = () => {
             .then(res => res.json())
             .then(data => setRecipes(data))
     }, []);
+
+
 
     return (
         <div className="py-24">
@@ -19,7 +22,7 @@ const Main = () => {
 
             <div className="grid grid-cols-12 gap-4">
                 <Recipes recipes={recipes}></Recipes>
-                <div className="border col-span-5 rounded-lg">sidebar</div>
+                <Sidebar></Sidebar>
             </div>
 
         </div>
